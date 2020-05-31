@@ -418,6 +418,17 @@ margin: 0 auto;
 @media (max-width: 600px){
     .portfolio {
         margin: auto;
+        justify-content: center;
+    }
+
+    .my-work{
+        background-color: var(--clr-light);
+        color: var(--clr-dark);
+        box-shadow: none;
+    }
+    .section__work-subtitle {
+        color: var(--clr-dark);
+        justify-content: center;
     }
     .about-me {
         margin-top: 30px;
