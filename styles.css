@@ -429,12 +429,34 @@ margin: 0 auto;
     .section__work-subtitle {
         color: var(--clr-dark);
         justify-content: center;
+        padding-bottom: 50px;
+        padding: 20px;
     }
     .about-me {
         margin-top: 30px;
     }
     .my-skills {
         padding: 20px;
+    }
+
+    .section__work-title {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding: 20px;
+        background-color: var(--clr-hover);
+        color: var(--clr-light);
+        border-bottom: var(--clr-dark);
+        border-bottom-style: solid;
+        border-bottom-width: thick;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .work-head {
+        background: var(--clr-ascent);
+        box-shadow: var(--bs);
+        margin: 10px;
+        border-radius: 10px;
     }
 }
 
