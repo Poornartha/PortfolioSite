@@ -210,7 +210,7 @@ h3 { font-size: var(--fs-h3) }
 .my-skills {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    background-image: url('img/blake.jpg');
+    /* background-image: url('img/blake.jpg'); */
     background-size: cover;
     background-blend-mode: multiply;
     text-align: center;
